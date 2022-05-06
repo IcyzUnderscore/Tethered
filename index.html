@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Tethered | Unity WebGL Player</title>
+    <title>Unity WebGL Player | Tethered</title>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=450 height=800 style="width: 450px; height: 800px; background: #231F20"></canvas>
-    <script src="Build/0.2.4.loader.js"></script>
+    <script src="Build/0.2.5.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/0.2.4.data",
-        frameworkUrl: "Build/0.2.4.framework.js",
-        codeUrl: "Build/0.2.4.wasm",
+        dataUrl: "Build/0.2.5.data",
+        frameworkUrl: "Build/0.2.5.framework.js",
+        codeUrl: "Build/0.2.5.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PenguinStudios",
         productName: "Tethered",
-        productVersion: "0.2.4",
+        productVersion: "0.2.5",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
